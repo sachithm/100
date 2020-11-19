@@ -1,10 +1,10 @@
 import random
-import hangman_art
+import art
 import hangman_words
 from os import system
 
-stages = hangman_art.stages
-logo = hangman_art.logo
+stages = art.hangman_stages
+logo = art.hangman_logo
 
 word_list = hangman_words.word_list
 chosen_word = random.choice(word_list)
